@@ -53,6 +53,40 @@ BREAK_DURATION=5
 
 ---
 
+## Créer un alias pomodoro (optionnel)
+
+Pour pouvoir lancer le script simplement avec la commande `pomodoro` :
+
+1. **Trouve le chemin absolu du script :**
+    ```bash
+    pwd
+    ```
+    Exemple : `/home/ton_user/pomodoro-bash`
+
+2. **Ouvre ton fichier de configuration shell :**
+
+    - Pour **Bash** :
+      ```bash
+      nano ~/.bashrc
+      ```
+    - Pour **Zsh** :
+      ```bash
+      nano ~/.zshrc
+      ```
+
+3. **Ajoute cette ligne à la fin du fichier** (en remplaçant le chemin) :
+    ```bash
+    alias pomodoro="/home/ton_user/pomodoro-bash/pomodoro.sh"
+    ```
+
+4. **Recharge le fichier de configuration :**
+    ```bash
+    source ~/.bashrc   # ou source ~/.zshrc
+    ```
+
+Tu peux maintenant lancer le timer avec :
+
+
 ## 📝 Licence
 
 Projet libre – fais-en ce que tu veux !
