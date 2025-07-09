@@ -61,7 +61,7 @@ Pour pouvoir lancer le script simplement avec la commande `pomodoro` :
     ```bash
     pwd
     ```
-    Exemple : `/home/ton_user/pomodoro-bash`
+    Exemple : `/home/ton_user/dossier_script`
 
 2. **Ouvre ton fichier de configuration shell :**
 
@@ -76,7 +76,7 @@ Pour pouvoir lancer le script simplement avec la commande `pomodoro` :
 
 3. **Ajoute cette ligne à la fin du fichier** (en remplaçant le chemin) :
     ```bash
-    alias pomodoro="/home/ton_user/pomodoro-bash/pomodoro.sh"
+    alias pomodoro="/home/ton_user/dossier_script/pomodoro.bash"
     ```
 
 4. **Recharge le fichier de configuration :**
